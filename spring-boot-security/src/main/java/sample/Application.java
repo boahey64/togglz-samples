@@ -13,7 +13,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 public class Application {
 
     @Configuration
-    @Order(SecurityProperties.ACCESS_OVERRIDE_ORDER)
+    @Order(SecurityProperties.DEFAULT_FILTER_ORDER)
     protected static class ApplicationSecurity extends WebSecurityConfigurerAdapter {
 
         @Override
