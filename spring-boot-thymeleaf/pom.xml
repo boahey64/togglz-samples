@@ -24,6 +24,12 @@
       <name>Marcel Overdijk</name>
       <timezone>CET</timezone>
     </developer>
+    <developer>
+      <id>boahey64</id>
+      <email>roman.richter64@gmail.com</email>
+      <name>Roman Richter</name>
+      <timezone>CET</timezone>
+    </developer>
   </developers>
 
   <dependencies>
@@ -62,7 +68,7 @@
     <dependency>
       <groupId>com.github.heneke.thymeleaf</groupId>
       <artifactId>thymeleaf-extras-togglz</artifactId>
-      <version>1.0.1.RELEASE</version>
+      <version>2.0.1.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
